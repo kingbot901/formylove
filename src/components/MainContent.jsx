@@ -26,7 +26,7 @@ export default function MainContent() {
                     className="w-44 h-44 mb-8 rounded-full overflow-hidden shadow-md"
                 >
                     <Image
-                        src="https://images.pexels.com/photos/371285/pexels-photo-371285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        src="https://i.ibb.co/GLsPH2h/IMG-20250519-092720-736.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Heart icon"
                         priority={true}
                         width={176}
@@ -38,8 +38,8 @@ export default function MainContent() {
                     Our Special Story
                 </h1>
                 <div className="text-2xl md:text-3xl text-purple-700 mb-8 relative z-10">
-                    Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'soulmate', 'everything', 'love', 'world']} className="text-nowrap" />
-                </div>
+                    Hey Annie g, you are<br />my<FlipWords words={['Saheeli', 'Golomolo', 'Wifey', 'Janah', 'Darling']} className="text-nowrap" />
+                </div
                 <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -56,12 +56,12 @@ export default function MainContent() {
             <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
-                    { date: '14 February, 2022', event: 'Our Journey Began', emoji: '❤️' },
-                    { date: '1 March, 2022', event: 'First Movie Together', emoji: '🎬' },
-                    { date: '1 March, 2022', event: 'First Hug', emoji: '🤗' },
-                    { date: '5 May, 2022', event: 'First Trip Together', emoji: '✈️' },
-                    { date: '10 August, 2022', event: 'First Fight & Patch-up', emoji: '💬' },
-                    { date: '25 December, 2022', event: 'First Christmas Together', emoji: '🎄' },
+                    { date: '23 May, 2024', event: 'Our Journey Began', emoji: '❤️' },
+                    { date: '10 June, 2024', event: 'First Purposal', emoji: '❤️' },
+                    { date: '3 July, 2024', event: 'Second Purposal', emoji: '🤗' },
+                    { date: '6 june, 2025', event: 'First Meetup Together', emoji: '✈️' },
+                    { date: '20 November, 2024', event: 'First Fight & Patch-up', emoji: '💬' },
+                    { date: '14 July, 2024', event: 'First Pic She send', emoji: '❤️' },
                 ]
                     .map((item, index) => (
                         <motion.div
@@ -92,7 +92,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
                         <TimeCounter
-                            startDate="2019-10-23"
+                            startDate="2024-05-23"
                             label="As Friends"
                         />
                     </motion.div>
@@ -102,7 +102,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <TimeCounter
-                            startDate="2022-01-14"
+                            startDate="2024-07-29"
                             label="As a Couple"
                         />
                     </motion.div>
@@ -121,7 +121,7 @@ export default function MainContent() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
                 >
-                    Every moment with you is a treasure!
+                    Every moment with you is a treasure Moi jan ummmmmmmmah!
                 </motion.p>
             </div>
         </StoryPage>,
@@ -142,7 +142,7 @@ export default function MainContent() {
                         >
                             {/* If you want to show your pics then you can save your pics in public/images folder like this 1.jpg, 2.jpg, 3.jpg then replace the src to this - /images/${i}.jpg */}
                             <Image
-                                src={`https://images.pexels.com/photos/1759823/pexels-photo-1759823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
+                                src={`https://i.ibb.co/SD88ZDxJ/IMG-20250519-092403-493.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
                                 alt={`Gallery image ${i}`}
                                 width={330}
                                 height={270}
@@ -160,11 +160,11 @@ export default function MainContent() {
             <div className="bg-white rounded-xl p-6 shadow-md overflow-y-auto flex-1 custom-scrollbar">
                 <div className="relative z-10">
                     <div className="text-gray-700 text-lg leading-relaxed mb-4">
-                        <p>From the very first moment our paths crossed, life has felt more beautiful, more exciting, and more meaningful. Every smile, every conversation, and every memory we've shared has built a story so precious that no words can truly capture it. I feel incredibly grateful to have someone like you by my side, someone who understands me without even saying a word, someone who brings light even on the darkest days. Through ups and downs, laughter and tears, you've been a constant source of strength and happiness. As we continue to write our journey together, I want you to always remember that you are deeply cherished, endlessly appreciated, and truly loved. Here's to the countless memories we've yet to create and the beautiful future that awaits us. You are, and always will be, my favorite part of every day.💖</p>
+                        <p>From the very first moment i feel that annie is made for me, life has felt more beautiful, more exciting, and more meaningful. Every smile, every conversation, and every memory we've shared has built a story so precious that no words can truly capture it. I feel incredibly grateful to have someone like you by my side, someone who understands me without even saying a word, someone who brings light even on the darkest days. Through ups and downs, laughter and tears, you've been a constant source of strength and happiness. As we continue to write our journey together, I want you to always remember that you are deeply cherished, endlessly appreciated, and truly loved. Here's to the countless memories we've yet to create and the beautiful future that awaits us. You are, and always will be, my favorite part of every day.💖</p>
                     </div>
                     <p className="text-right text-rose-600 font-semibold">
                         Forever yours,<br />
-                        Your love❤️
+                        Your Saheeli❤️
                     </p>
                 </div>
             </div>
@@ -175,7 +175,7 @@ export default function MainContent() {
             <div className="flex flex-col items-center justify-center h-full text-center">
                 <h2 className="text-4xl font-bold text-pink-600 mb-6 relative z-10">Our Story Continues...</h2>
                 <p className="text-xl text-blue-700 mb-8 relative z-10">
-                    Every moment we share is another step in our unforgettable story.
+                    Every moment we share is another step in our unforgettable Ma sach ma apke bina kuch nii tha.
                 </p>
                 <motion.div
                     animate={{ scale: [1, 1.2, 1] }}
@@ -255,7 +255,7 @@ export default function MainContent() {
                     >
                         {/* When showing your own pics replace image src with this - /images/${selectedImage}.jpg */}
                         <Image
-                            src={`https://images.pexels.com/photos/1759823/pexels-photo-1759823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
+                            src={`https://i.ibb.co/p6vH4Lrv/IMG-20250519-092618-653.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
                             alt={`Gallery image ${selectedImage}`}
                             width={300}
                             height={250}
