@@ -60,7 +60,7 @@ export default function Cards({ setMusicPlaying, handleShowMainContent }) {
                     <QuestionCard
                         key="main-question"
                         emoji="🥰"
-                        question="Can you be mine forever?"
+                        question="Annie g Can you be mine forever?"
                         onAnswer={(answer) => {
                             if (answer) {
                                 setCardState("yesResponse")
@@ -75,7 +75,7 @@ export default function Cards({ setMusicPlaying, handleShowMainContent }) {
                     <QuestionCard
                         key="yes-response"
                         emoji="🩷"
-                        question="Yesss! You always make my heart smile! I’m so lucky to have you in my life."
+                        question="Yesss! You always make my heart smile! I’m so lucky to have you in my life meri jan ummmmmmmmmmmmmmmmmmmmah."
                         showButtons={false}
                         btnText="More love ahead"
                         onAnswer={() => setCardState("secretCode")} // Add a new action here
